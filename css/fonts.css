@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@font-face {
+    font-family: pixel;
+    src: url('../components/fonts/alagard.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: alien;
+    src: url('../components/fonts/Glipervelz-Origy\ FULL.ttf') format('truetype');
+}
+

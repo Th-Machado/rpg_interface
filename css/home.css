@@ -1,0 +1,141 @@
+/*========== Cabeçalho e Menu ==========*/
+
+header
+{
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor2));
+    padding-top: 30px;
+    min-height: 150px;
+    text-align: center;
+}
+
+header > h1
+{
+    font-family: var(--fonte-title);
+    font-weight: normal;
+    font-size: 60px;
+    padding-bottom: 20px;
+    color: var(--cor0);
+    text-transform: uppercase;
+}
+
+header > p 
+{
+    font-family: var(--fonte-padrao);
+    font-size: 14px;
+    font-weight: normal;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+nav 
+{
+    background-color: var(--cor2);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.267);
+}
+
+nav > a 
+{
+    color: var(--cor0);
+    padding: 12px;
+    text-decoration: none;
+    font-family: var(--fonte-title);
+    font-weight: normal;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover
+{
+    color: var(--cor2);
+    background-color: var(--cor3);
+    border-radius: 10px;
+}
+
+/*========== Container Principal ==========*/
+
+body
+{
+    background-color: var(--cor0);
+}
+
+main
+{
+    min-width: 300px;
+    max-width: 1800px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+main h2 
+{
+    font-family: var(--fonte-title);
+    font-weight: normal;
+    font-size: 25px;
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    text-indent: 8px;
+    border-radius: 3px;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+main p 
+{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 32px;
+    font-family: var(--fonte-padrao);
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--cor3);
+}
+
+main section
+{
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.interface
+{
+    margin-bottom: 50px;
+}
+
+.universo
+{
+    margin-bottom: 30px;
+}
+
+aside
+{
+    border: 2px solid var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+
+aside > h2 
+{
+    background-color: var(--cor3);
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 8px 8px 0px 0px;
+    color: var(--cor0);
+}
+
+aside > p 
+{
+    color: var(--cor3);
+}
+
+.cifra
+{
+    font-family: var(--fonte-cifra);
+    font-weight: normal;
+    font-size: 32px;
+}

@@ -1,0 +1,156 @@
+body
+{
+    background-color: var(--cor0);
+}
+main
+{
+    display: flex;
+}
+
+.login
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    min-height: 100%vh;
+    padding: clamp(35px, 8%, 70px);
+}
+
+.wrapper
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_logo
+{
+    width: 120px;
+    margin-bottom: 80px;
+}
+
+.login_title
+{
+    font-family: var(--fonte-title);
+    font-weight: normal;
+    font-size: 50px;
+    color: var(--cor3);
+    margin-bottom: 30px;
+}
+
+.login_label
+{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input
+{
+    width: 100%;
+    background-color: var(--cor0);
+    border: 2px solid var(--cor2);
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    padding: 30px 10px 10px;
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    color: var(--cor4);
+}
+
+.login_label span
+{
+    position: absolute;
+    font-size: 25px;
+    font-family: var(--fonte-title);
+    font-weight: normal;
+    color: var(--cor3);
+    margin: 20px;
+    cursor: text;
+    transition: all 200ms ease;
+}
+
+.input:focus 
+{
+    border: solid 2px var(--cor4);
+}
+
+.login_label .span-active
+{
+    font-size: 14px;
+    margin: 8px 10px;
+}
+
+.login_label--checkbox
+{
+    width: 100%;
+    margin: 15px 0px 50px;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: var(--fonte-title);
+    color: var(--cor2);
+    display: flex;
+    align-items: center;
+}
+
+.input--checkbox 
+{
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    background-color: var(--cor0);
+    border: 2px solid var(--cor2);
+    border-radius: 3px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.input--checkbox:checked
+{
+    background-color: var(--cor2);
+}
+
+.input--checkbox:checked::after
+{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: 3px solid var(--cor4);
+    border-width: 0px 3px 3px 0px;
+    transform: rotate(45deg);
+    margin: 2px 6px;
+}
+
+.login_button
+{
+    background-color: var(--cor2);
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 2px solid var(--cor2);
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.button img
+{
+    width: 60px;
+}
+
+.login_button:disabled
+{
+    cursor: auto;
+    background-color: var(--cor0);
+    border: 2px solid var(--cor2);
+}

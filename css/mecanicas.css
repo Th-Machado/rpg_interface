@@ -1,0 +1,89 @@
+/*=========== Cabeçalho e Menu ============*/
+
+header
+{
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor2));
+    padding: 30px;
+    min-height: 100px;
+    text-align: center;
+}
+
+header > h1
+{
+    font-family: var(--fonte-title);
+    font-weight: normal;
+    font-size: 32px;
+    color: var(--cor0);
+}
+
+nav
+{
+    background-color: var(--cor2);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.267);
+}
+
+nav > a 
+{
+    text-decoration: none;
+    font-family: var(--fonte-title);
+    font-weight: normal;
+    color: var(--cor0);
+    font-size: 20px;
+    padding: 12px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover
+{
+    color: var(--cor2);
+    background-color: var(--cor3);
+    border-radius: 10px;
+}
+
+/*========== Container Principal ==========*/
+
+body
+{
+    background-color: var(--cor0);
+}
+
+main
+{
+    min-width: 300px;
+    max-width: 1800px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+section
+{
+    border: 2px solid var(--cor2);
+    border-radius: 5px;
+}
+
+section > p
+{
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    font-size: 14px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 32px;
+    color: var(--cor3);
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+span
+{
+    text-decoration: underline;
+}
+
+.cifra
+{
+    font-family: var(--fonte-cifra);
+    font-weight: normal;
+    font-size: 32px;
+}
